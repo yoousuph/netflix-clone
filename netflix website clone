@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
+    </style>
+
+    <link rel="stylesheet" href="index.css">
+    <title>Netflix demo website</title>
+</head>
+<body>
+    
+    <!-- section 1 -->
+
+    <div class="header">
+
+        <div class="wrapper-1">
+
+            <div class="nav">
+
+                <div class="nav-logo">
+                   <a href=""><img src="img/netflix.png" alt=""></a> 
+                </div>
+                <div class="nav-form">
+
+                    <div class="select-language">
+                        <div class="language-icon">
+                            <span class="material-symbols-outlined">
+                                language
+                            </span>
+                        </div>
+                        <select name="language" id="language">
+                            <option value="english">English</option>
+                            <option value="nigeria">Nigerian</option>
+                        </select>
+                        <span class="material-symbols-outlined">
+                            keyboard_arrow_down
+                        </span>
+                    </div>
+
+                    <a class="sign-in" href="sign-in.html" >Sign in</a>
+
+                </div>
+
+            </div>
+    
+            <div class="flex-container-1">
+
+                <div class="main">
+    
+                    <div class="text">
+                        <h1>Unlimited movies, TV shows, and more.</h1>
+                        <p>Watch anywhere. Cancel at anytime.</p>
+                        <p>Ready to watch? Enter your email to create or restart your membership.</p>
+                    </div>
+
+                    <div class="form">
+                        <input type="email" placeholder="Email address" required>
+                        <div class="get btn">
+                            <a href="#">Get Started</a>
+                            <span class="material-symbols-outlined">
+                                arrow_forward_ios
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- section 2 -->
+
+    <div class="section-2">
+        
+        <div class="wrapper-1">
+
+            <div class="flex-container-2">
+
+                <div class="text">
+                    <h1>Enjoy on your TV.</h1>
+                    <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+               </div>
+               <div class="img">
+                    <img src="img/tv.png" alt="">
+               </div>
+            </div>
+            
+        </div>
+       
+    </div>
+
+
+    <!-- section 3 -->
+
+    <div class="section-3">
+        
+        <div class="wrapper-1">
+            
+            <div class="flex-container-2">
+
+                <div class="text">
+                    <h1>Watch everywhere.</h1>
+                    <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV without paying more.</p>
+               </div>
+               <div class="img">
+                    <img src="img/device-pile.png" alt="">
+               </div>
+            </div>
+            
+        </div>
+       
+    </div>
+
+
+    <!-- section 4 -->
+
+    <div class="section-4">
+        
+        <div class="wrapper-1">
+
+            <div class="flex-container-2">
+
+                <div class="text">
+                    <h1>Create profiles for kids.</h1>
+                    <p>Send kids on adventures with their favorite characters in a space made just for them—free with your membership.</p>
+               </div>
+               <div class="img">
+                    <img src="img/kids.png" alt="">
+               </div>
+            </div>
+
+        </div>
+       
+    </div>
+
+
+    <!-- section 5 -->
+    
+    <div class="section-5">
+
+        <div class="wrapper-1">
+
+            <div class="flex-container-2">
+
+                <div class="text">
+                    <h1>Download your shows to watch offline.</h1>
+                    <p>Save your favorites easily and always have something to watch.</p>
+               </div>
+               <div class="img">
+                    <img src="img/phone.png" alt="">
+               </div>
+            </div>
+
+        </div>
+       
+    </div>
+
+
+    <!--------------------- section 6--------------------- -->
+
+    <div class="section-6">
+        
+        <div class="wrapper-1">
+
+            <div class="flex-container-2">
+
+                <h1>Frequently Asked Question</h1>
+
+                <div class="faq">
+                    <ul class="accordion">
+                        <li>
+                            <input type="checkbox" name="accordion" id="first">
+                            <label for="first">What is Netflix?</label>
+                            <div class="content">
+                                <p>
+                                    Netflix is a streaming service that offers a wide variety of award-winning TV programmes, films, anime, documentaries and more - on thousands of internet-connected devices. <br> <br>
+
+                                    You can watch as much as you want, whenever you want, without a single advert - all for one low monthly price. There's always something new to discover, and new TV programmes and films are added every week!
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="accordion" id="second">
+                            <label for="second">What can I watch Netflix?</label>
+                            <div class="content">
+                                <p>
+                                    Netflix has an extensive library of feature films, documentaries, TV programmes, anime, award-winning Netflix originals and more. Watch as much as you want, anytime you want. <br> <br>
+                                    <a href="#">Check out some of our content.</a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="accordion" id="third">
+                            <label for="third">How muxh does netflix cost?</label>
+                            <div class="content">
+                                <p>
+                                    Watch Netflix on your smartphone, tablet, smart TV, laptop or streaming device, all for one fixed monthly fee. Plans range from €7,99 to €15,99 a month. No extra costs, no contracts.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="accordion" id="forth">
+                            <label for="forth">Where can I watch?</label>
+                            <div class="content">
+                                <p>
+                                    Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles. <br> <br>
+
+                                    You can also download your favourite programmes with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="accordion" id="fifth">
+                            <label for="fifth">How can I cancel?</label>
+                            <div class="content">
+                                <p>
+                                    Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees - start or stop your account at any time.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="accordion" id="sixth">
+                            <label for="sixth">is Netflix good for kids?</label>
+                            <div class="content">
+                                <p>
+                                    The Netflix Children's experience is included in your membership to give parents control while children enjoy family-friendly TV programmes and films in their own space. <br> <br>
+
+                                    Children's profiles come with PIN-protected parental controls that let you restrict the maturity rating of content children can watch and block specific titles you don't want children to see.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="accordion" id="seventh">
+                            <label for="seventh">what is Netflix?</label>
+                            <div class="content">
+                                <p>
+                                    Netflix has an extensive library of feature films, documentaries, TV programmes, anime, award-winning Netflix originals and more. Watch as much as you want, anytime you want. <br> <br>
+                                    <a href="#">Check out some of our content.</a>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <p class="text">Ready to watch? Enter your email to create or restart your membership.</p>
+    
+                    <div class="form">
+                        <input type="text" placeholder="Email address">
+                        <div class="get btn">
+                            <a href="#">Get Started</a>
+                            <span class="material-symbols-outlined">
+                                arrow_forward_ios
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- -------------------FOOTER------------- -->
+
+    <div class="footer">
+
+        <div class="wrapper-1">
+
+            <div class="flex-container-3">
+
+                <p class="call">Questions? Call <a href="#">00 800 112 4393</a></p>
+                
+                <ul class="links">
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Account</a></li>
+                    <li><a href="#">media Center</a></li>
+                    <li><a href="#">Investor Relations</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Redeem Gift Cards</a></li>
+                    <li><a href="#">Buy Gift Cards</a></li>
+                    <li><a href="#">Ways to Watch</a></li>
+                    <li><a href="#">Terms and Use</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Cookies Preferences</a></li>
+                    <li><a href="#">Corprate Informations</a></li>
+                    <li><a href="#">ContactUs</a></li>
+                    <li><a href="#">Speed Test</a></li>
+                    <li><a href="#">Legal Guarantee</a></li>
+                    <li><a href="#">Legal Notes</a></li>
+                    <li><a href="#">Only on Netflix</a></li>
+                </ul>
+
+                <div class="select-language">
+                    <div class="language-icon">
+                        <span class="material-symbols-outlined">
+                            language
+                        </span>
+                    </div>
+                    <select name="language" id="language">
+                        <option value="english">English</option>
+                        <option value="nigeria">Nigerian</option>
+                    </select>
+                    <span class="material-symbols-outlined">
+                        keyboard_arrow_down
+                    </span>
+                </div>
+
+                
+                <p class="netflix-nig">Netflix Nigeria</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
